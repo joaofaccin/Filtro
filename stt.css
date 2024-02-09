@@ -1,3 +1,29 @@
 body{
     background-color: #242e5f;
 }
+.bg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: 600;
+}
+.voltar{
+    margin: 20px;
+    padding: 20px;
+    width: 100px; /* largura do botão */
+    height: 50px; /* altura do botão */
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    border-radius: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
