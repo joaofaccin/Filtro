@@ -5,10 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
+        integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css"
+        integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous" />
+  
     <!-- DataTable CSS  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0-alpha3/css/bootstrap.min.css">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.3.0-alpha3/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/1.13.4/css/dataTables.bootstrap5.min.css">
     <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.4.1/css/responsive.bootstrap5.min.css">
+ 
+    <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
     <link rel="stylesheet" href="stt.css">
 
     <title>Centro CB Terapia</title>
@@ -16,7 +23,7 @@
 
 <body>
     <div>
-        <a class="voltar" href="">Voltar</a>
+        <a class="voltar" href="https://www.centrocb.com.br/">Voltar</a>
     </div>
     <div class="container mt-5">
         <div class="row justify-content-center">
@@ -27,88 +34,79 @@
         </div>
     </div>
     <main>
-    <!-- Main Content -->
-    <div class="container p-3 my-5 bg-light border border-light" >
-        <!-- DataTable Code starts -->
-        <table id="example" class="table table-striped nowrap" style="width:100%;">
-            <thead>
-                <tr>
-                    <th>Nome Completo</th>              
-                    <th>Cidade</th>
-                    <th>Estado</th>
-                    <th>Nivel</th>               
-                    <th>E-mail</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Joao Vitor</td>
-                    <td>Santa Maria</td>
-                    <td>Rio Grande do Sul</td>                  
-                    <td>1</td>
-                    <td>joao@datatables.net</td>
-                </tr>
-                <tr>
-                    <td>Pedro Oliveira</td>
-                    <td>São Paulo</td>
-                    <td>São Paulo</td>                  
-                    <td>2</td>
-                    <td>pedro@datatables.net</td>
-                </tr>
-                <tr>
-                    <td>Luis</td>
-                    <td>Rio de Janeiro</td>
-                    <td>Rio de Janeiro</td>                  
-                    <td>1</td>
-                    <td>luis@datatables.net</td>
-                </tr>
-                <tr>
-                    <td>Vinicios</td>
-                    <td>Ibiporã</td>
-                    <td>Parana</td>                  
-                    <td>3</td>
-                    <td>vini@datatables.net</td>
-                </tr>    
-                <tr>
-                    <td>Vinicios</td>
-                    <td>Ibiporã</td>
-                    <td>Parana</td>                  
-                    <td>3</td>
-                    <td>vini@datatables.net</td>
-                </tr> 
-                <tr>
-                    <td>Vinicios</td>
-                    <td>Ibiporã</td>
-                    <td>Parana</td>                  
-                    <td>3</td>
-                    <td>vini@datatables.net</td>
-                </tr>              
-            </tbody>
-        </table>
-    </div>
-</main>
-<footer id="sticky-footer" class="footer-main text-white">
-    <div class="container text-center ">
-        <img src="./img/icon.png" alt="" width="50px">
-      <small>Copyright &copy; <a href="https://www.centrocb.com.br/">Centro CB Terapia</a></small>
-    </div>
-  </footer>
+        <!-- Main Content -->
+        <div class="container p-3 my-5 bg-light border border-light">
+            <!-- DataTable Code starts -->
+            <table id="example" class="table table-striped nowrap" style="width:100%;">
+                <thead>
+                    <tr>
+                        <th><i class="fa fa-user"></i> Nome Completo</th>
+                        <th><i class="fas fa-home"></i> Cidade</th>
+                        <th><i class="fas fa-city"></i> Estado</th>
+                        <th><i class="fas fa-id-badge"></i> Nivel</th>
+                        <th><i class="fas fa-envelope"></i> E-mail</th>
+                        <th><i class="fas fa-phone"></i> Telefone</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Joao Vitor</td>
+                        <td>Santa Maria</td>
+                        <td>Rio Grande do Sul</td>
+                        <td>1</td>
+                        <td>joao@datatables.net</td>
+                        <td><a href="https://wa.me/55555991532335">(55)55991532335</a></td>
+
+                    </tr>
+                    <tr>
+                        <td>Pedro Oliveira</td>
+                        <td>São Paulo</td>
+                        <td>São Paulo</td>
+                        <td>2</td>
+                        <td>pedro@datatables.net</td>
+                        <td><a href="https://wa.me/55555991532335">(55)55991532335</a></td>
+                    </tr>
+                    <tr>
+                        <td>Luis</td>
+                        <td>Rio de Janeiro</td>
+                        <td>Rio de Janeiro</td>
+                        <td>1</td>
+                        <td>luis@datatables.net</td>
+                        <td><a href="https://wa.me/55555991532335">(55)55991532335</a></td>
+                    </tr>
+                    <tr>
+                        <td>Vinicios</td>
+                        <td>Ibiporã</td>
+                        <td>Parana</td>
+                        <td>3</td>
+                        <td>vini@datatables.net</td>
+                        <td><a href="https://wa.me/55555991532335">(55)55991532335</a></td>
+                    </tr>
+                    <tr>
+                        <td>Vinicios</td>
+                        <td>Ibiporã</td>
+                        <td>Parana</td>
+                        <td>3</td>
+                        <td>vini@datatables.net</td>
+                        <td><a href="https://wa.me/55555991532335">(55)55991532335</a></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </main>
+    <footer id="sticky-footer" class="footer-main text-white">
+        <div class="container text-center ">
+            <img src="./img/icon.png" alt="" width="50px">
+            <small>Copyright &copy; <a href="https://www.centrocb.com.br/">Centro CB Terapia</a></small>
+        </div>
+    </footer>
     <!-- DataTable JS -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.4/js/dataTables.bootstrap5.min.js"></script>
     <script src="https://cdn.datatables.net/responsive/2.4.1/js/dataTables.responsive.min.js"></script>
     <script src="https://cdn.datatables.net/responsive/2.4.1/js/responsive.bootstrap5.min.js"></script>
+    <script src="js.js"></script>
 </body>
+
 </html>
-<script>
-    $(document).ready(function() {
-$('#example').DataTable().destroy();
-$('#example').DataTable( {
-    "language": {
-        "url": "//cdn.datatables.net/plug-ins/9dcbecd42ad/i18n/Portuguese-Brasil.json"
-    },
-    responsive: true,
-} );
-} );
-</script>

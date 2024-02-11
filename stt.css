@@ -1,6 +1,11 @@
 body{
     background-color: #242e5f;
+    
 }
+th i {
+    margin-right: 10px; /* Adjust the value as needed */
+  }
+
 .bg{
     display: flex;
     justify-content: center;
